@@ -1,11 +1,15 @@
+
+//миксины для работы с резиной
+
 =paddingL-dynamic( $start-width, $start-width-px, $max-width, $start-element-width, $start-element-width-px, $end-element-width)
   padding-left: (calc($start-element-width-px + ($end-element-width - $start-element-width) * ((100vw - $start-width-px) / ($max-width - $start-width))))
+
 
 =marginR-dynamic( $start-width, $start-width-px, $max-width, $start-element-width, $start-element-width-px, $end-element-width)
   margin-right: (calc($start-element-width-px + ($end-element-width - $start-element-width) * ((100vw - $start-width-px) / ($max-width - $start-width))))
 
 
-
+//standart classes for common use стандартные частоиспользуемые классы
 .no-mp-border-box
   margin: 0
   padding: 0
@@ -26,6 +30,8 @@
 
 .color-pink-header
   color: #b73958
+
+//header styles разметка шапки
 
 .standart-header
   display: flex
@@ -61,7 +67,6 @@
   justify-content: space-around
   width: 491px
   margin-top: -3px
-
 
 .standart-header__navigation-link:visited
   color: inherit

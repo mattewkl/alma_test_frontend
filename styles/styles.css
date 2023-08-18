@@ -105,6 +105,8 @@
   background-image: url("../images/login.svg");
 }
 
+/*// top-section styles. Стили для верхней секции */
+
 .section-top {
   display: flex;
   flex-direction: column;
@@ -277,6 +279,8 @@
   z-index: 1;
 }
 
+/* //section feed styles Стили для секции с новостями */
+
 .section-feed {
   display: flex;
   flex-direction: column;
@@ -326,6 +330,8 @@
   text-align: justify;
   margin-left: 5px;
 }
+
+/* //footer-styles стили подвала*/
 
 .standart-footer {
   width: 100%;
