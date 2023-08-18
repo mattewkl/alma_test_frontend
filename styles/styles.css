@@ -336,6 +336,12 @@
   padding-top: 31px;
   padding-left: 15.03%;
 }
+@media screen and (max-width: 4320px) {
+  .standart-footer {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
 @media screen and (max-width: 1284px) {
   .standart-footer {
     padding-left: calc(193px + -133 * (100vw - 1284px) / -260);
