@@ -125,6 +125,7 @@
   align-items: center;
   background-color: white;
   width: 100%;
+  border-bottom: 1px solid gray;
 }
 
 .section-with-icons__article {
@@ -132,15 +133,126 @@
   flex-direction: column;
   margin-top: 51px;
   margin-left: 9px;
-  gap: 20px;
+  gap: 12px;
   align-items: center;
-  width: 819px;
+  width: 834px;
+  margin-bottom: 51px;
 }
 
 .section-with-icons__title {
   font-size: 35px;
   color: #404040;
   font-weight: 400;
+}
+
+.section-with-icons__subtitle {
+  width: 834px;
+  height: 74px;
+  font-size: 17px;
+  color: #636363;
+  font-weight: 400;
+  text-align: center;
+  margin-left: -10px;
+  line-height: 1.18;
+}
+
+.section-with-icons__icons-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 954px;
+  margin-bottom: 55px;
+}
+
+.section-with-icons__icons-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 179px;
+  height: 179px;
+  border-radius: 89px;
+  background-color: #e48f23;
+}
+
+.section-with-icons__icons-list-item:nth-of-type(1) {
+  margin-right: 76px;
+  background-color: #4eb9f4;
+}
+
+.section-with-icons__icons-list-item:nth-of-type(2) {
+  margin-right: 70px;
+  background-color: #6fc125;
+}
+
+.section-with-icons__icons-list-item:nth-of-type(3) {
+  margin-right: 76px;
+  background-color: #ff5649;
+  position: relative;
+}
+
+.section-with-icons__icon-camera {
+  width: 80px;
+  height: 70px;
+  background-image: url("../images/section-icons/camera.svg");
+  margin-top: 53px;
+  margin-bottom: 8px;
+}
+
+.section-with-icons__icon-tickets {
+  width: 82px;
+  height: 82px;
+  background-image: url("../images/section-icons/tickets.svg");
+  margin-top: 41px;
+  margin-bottom: 8px;
+}
+
+.section-with-icons__icon-beer {
+  opacity: 0.259;
+  width: 68px;
+  height: 85px;
+  background-image: url("../images/section-icons/beermug.svg");
+  margin-top: 41px;
+  margin-left: 11px;
+  z-index: 0;
+  margin-bottom: 2px;
+}
+
+.section-with-icons__icon-subtitle {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-with-icons__icon-subtitle_tickets {
+  margin-left: -2px;
+}
+
+.section-with-icons__icon-subtitle_beer {
+  opacity: 0.259;
+  z-index: 0;
+}
+
+.section-with-icons__icon-ipad {
+  width: 76px;
+  height: 76px;
+  background-image: url("../images/section-icons/iPad.svg");
+  margin-bottom: 5px;
+  margin-top: 48px;
+  margin-left: 6.5px;
+}
+
+.section-with-icons__overlay-text {
+  display: flex;
+  position: absolute;
+  width: 131px;
+  font-size: 12px;
+  top: 38px;
+  line-height: 1.18;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
