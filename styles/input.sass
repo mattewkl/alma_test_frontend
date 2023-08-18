@@ -315,13 +315,14 @@
   flex-direction: row
   padding-top: 31px
   padding-left: 15.03%
-  @media screen and (max-width: 1024px)
-    padding-left: 60px
-  @media screen and (max-width: 1284px)
-    +paddingL-dynamic(1284, 1284px, 1024, 193, 193px, 60)
   @media screen and (max-width: 4320px)
     padding-left: 0
     justify-content: center
+  @media screen and (max-width: 1284px)
+    +paddingL-dynamic(1284, 1284px, 1024, 193, 193px, 60)
+    justify-content: start
+  @media screen and (max-width: 1024px)
+    padding-left: 60px
 
 .standart-footer__navigation
   display: flex
